@@ -255,17 +255,17 @@ ws.onmessage = function(event) {
     chatbox.scrollTo(0, chatbox.scrollHeight);
 
     // Check if the data from the server contains an image URL
-    if (data.url) {
-        // Create an image element
-        let img = document.createElement('img');
-        img.src = data.url;
-        img.style.width = '300px'; // Set the width to 300px
-        img.style.display = 'block';
+    // if (data.url) {
+    //     // Create an image element
+    //     let img = document.createElement('img');
+    //     img.src = data.url;
+    //     img.style.width = '300px'; // Set the width to 300px
+    //     img.style.display = 'block';
 
-        // Append the image to the chatbox
-        chatbox.appendChild(img);
-        chatbox.scrollTo(0, chatbox.scrollHeight);
-    }
+    //     // Append the image to the chatbox
+    //     chatbox.appendChild(img);
+    //     chatbox.scrollTo(0, chatbox.scrollHeight);
+    // }
 }
 
 chatInput.addEventListener("input", () => {

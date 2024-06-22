@@ -132,7 +132,7 @@ header h2 {
   white-space: pre-wrap;
   padding: 12px 16px;
   border-radius: 10px 10px 0 10px;
-  max-width: 75%;
+  max-width: 95%;
   color: #fff;
   // font-size: 0.95rem;
   // background: #724ae8;
@@ -185,7 +185,7 @@ header h2 {
   visibility: visible;
 }
 
-@media (max-width: 490px) {
+@media (max-width: 300px) {
   .chatbot-toggler {
     right: 20px;
     bottom: 20px;
